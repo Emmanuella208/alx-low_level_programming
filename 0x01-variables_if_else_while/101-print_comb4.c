@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	int m, i , j;
+	int m, i, j;
 
 	for (i = '0'; i <= '9'; i++)
 	{
@@ -13,7 +13,6 @@ int main(void)
 		{
 			for (m = '0'; m <= '9'; m++)
 			{
-
 				if (i < j && j < m)
 				{
 					putchar(i);
@@ -32,6 +31,6 @@ int main(void)
 			}
 		}
 	}
-	putchar ('\n');
-	return (0);    
+	putchar('\n');
+	return (0);
 }
